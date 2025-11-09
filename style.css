@@ -24,6 +24,7 @@ text-align: center;
 border: 1px solid white;
 border-radius: 7%;
 box-shadow: 2px solid rgb(42, 42, 87);
+box-sizing: border-box;
 }
 
 .button-operator{
@@ -91,20 +92,23 @@ box-shadow: 2px solid rgb(42, 42, 87);
 /*----------------------------------------------------FOR RESPONSIVE-----------------------------------------------*/
 @media screen and (max-width: 600px){
     .Calculator{
-         height: 65vh;
-    width: 42vh;
+         height: 85vh;
+    width: 62%;
     }
     .button-operator{
-           height: 7vh;
-    width: 15%;
+           height: 9vh;
+    width: 16%;
     }
     .button{
-    width: 15%;
+        height: 9vh;
+    width: 16%;
     }
     .button-equal{
-        width: 15%;
+        height: 9vh;
+        width: 16%;
     }
     #inputtext{
+               border: 2px solid black;
         margin: 10px;
         padding: 10px;
         width: 85%;
@@ -113,31 +117,33 @@ box-shadow: 2px solid rgb(42, 42, 87);
 
 @media (600px <= width <= 768px){
     .Calculator{
-        height: 68vh;
-         width: 70%;
+        height: 95vh;
+         width: 60%;
     }
     #inputtext{
           border: 2px solid black;
              width: 85%;
     }
      .button-operator{
-           height: 7vh;
-    width: 17%;
-    font-size: 30PX;
+           height: 10vh;
+    width: 15%;
+    font-size: 25PX;
     }
     .button{
-    width: 17%;
-    font-size: 30PX;
+      height: 10vh;
+    width: 15%;
+    font-size: 25PX;
     }
     .button-equal{
-        width: 17%;
-         font-size: 30PX;
+      height: 10vh;
+        width: 15%;
+         font-size: 25PX;
     }
 }
 
 @media (768px <= width <= 992px){
     .Calculator{
-         height: 78vh;
+         height: 95vh;
          width: 55%;
     }
     #inputtext{
@@ -145,25 +151,25 @@ box-shadow: 2px solid rgb(42, 42, 87);
              width: 85%;
     }
      .button-operator{
-           height: 9vh;
-    width: 17%;
-      font-size: 35px;
+           height: 10vh;
+    width: 15%;
+      font-size: 25px;
     }
     .button{
-    width: 17%;
-      height: 9vh;
-      font-size: 35px;
+    width: 15%;
+      height: 10vh;
+      font-size: 25px;
     }
     .button-equal{
-        width: 17%;
-          height: 9vh;
-            font-size: 35px;
+        width: 15%;
+          height: 10vh;
+            font-size: 25px;
     }
 }
 
 @media (992px <= width <= 1200px){
      .Calculator{
-         height: 78vh;
+         height: 95vh;
          width: 45%;
     }
      #inputtext{
@@ -171,18 +177,18 @@ box-shadow: 2px solid rgb(42, 42, 87);
              width: 85%;
     }
     .button-operator{
-           height: 9vh;
+           height: 10vh;
     width: 16%;
       font-size: 30px;
     }
     .button{
     width: 16%;
-      height: 9vh;
+      height: 10vh;
       font-size: 30px;
     }
     .button-equal{
         width: 16%;
-          height: 9vh;
+          height: 10vh;
             font-size: 30px;
     }
 }
