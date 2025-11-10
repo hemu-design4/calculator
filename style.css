@@ -96,8 +96,11 @@ border-radius: 7%;
     height: 7vh;
     width: 15%;
   }
+  .button {
     width: 15%;
+  }
   .button-equal {
+    width: 15%;
   }
   #inputtext {
     /* margin: 10px;
